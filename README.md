@@ -1,4 +1,4 @@
-This program is based on the huge work of Mathieu Daëron that you can find here : [[https://github.com/mdaeron/pypl]]
+This program is based on the huge work of Mathieu Daëron that you can find here : [https://github.com/mdaeron/pypl]
 
 I'll detail only the classes and functions that were used for the vaporizer's code. 
 
