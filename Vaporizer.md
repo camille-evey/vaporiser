@@ -4,6 +4,6 @@ I'll detail only the classes and functions that were used for the vaporizer's co
 
 ### [Graphic User Interface](https://github.com/camille-evey/vaporiser/blob/fa11f945da0120df84ff6f1145006221cf0fde07/Graphic%20User%20Interface.md)
 
-### [On the PyPLBoard](obsidian://open?vault=Doc%20Vapo&file=on%20PyPL%20Board)
+### [On the PyPLBoard](https://github.com/camille-evey/vaporiser/blob/2eb409dc88c44b53b0c6ad7c3a631277d30b5cd4/on%20PyPL%20Board.md)
 
 
