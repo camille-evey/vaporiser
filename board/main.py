@@ -59,16 +59,16 @@ class PyPL():
   		self.T2 = PT1000(self.spi, X20)
           
         #PID de température
-#   		self.PWM = _PWM('Y3')
+  		self.PWM = _PWM('Y3')
         
-#   		self.PID_1 = PID(self.T1.read(),	self.PWM.output, set_point = 40,
-# 			Kp = 1., Ki = 0.03, Kd = 0., I_min = -6, I_max = 6, cycle = 1)
+  		self.PID_1 = PID(self.T1.read(),self.PWM.output, set_point = 40,
+			Kp = 1., Ki = 0.03, Kd = 0., I_min = -6, I_max = 6, cycle = 1)
   		
-#   		self.PID_2 = PID(self.T2.read(),	self.PWM.output, set_point = 40,
-# 	        Kp = 1., Ki = 0.03, Kd = 0., I_min = -6, I_max = 6, cycle = 1)
+  		self.PID_2 = PID(self.T2.read(),self.PWM.output, set_point = 40,
+	        Kp = 1., Ki = 0.03, Kd = 0., I_min = -6, I_max = 6, cycle = 1)
           
-#   		self.TS1 = Thermostat(self.PID_1)
-#   		self.TS2 = Thermostat(self.PID_2)
+  		self.TS1 = Thermostat(self.PID_1)
+  		self.TS2 = Thermostat(self.PID_2)
 
         #Fonctions d'envoi de la température 
 	def send(self, txt):
